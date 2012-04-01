@@ -8,7 +8,7 @@ This plugin allows you to call Appirater userDidSignificantEvent: from javascrip
 1. Install [Appirater](https://github.com/arashpayan/appirater).
 2. Add the AppiraterPlugin folder to the Plugins folder in XCode, using "Create groups for any added folders".
 3. Add the 'Appirater.js' file to your www folder and link to it from your html files.
-4. In PhoneGap.plist, add new key 'AppiraterPlugin' with value 'AppiraterPlugin'
+4. Add new entry key 'AppiraterPlugin' with value 'AppiraterPlugin' to 'Plugins' in 'PhoneGap.plist/Cordova.plist'
 
 ## JAVASCRIPT INTERFACE ##
 
