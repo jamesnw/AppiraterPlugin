@@ -6,7 +6,11 @@
 //  Copyright (c) 2012 ChinStr.apps, All rights reserved.
 //
 
-#import <PhoneGap/PGPlugin.h>
+#ifdef CORDOVA_FRAMEWORK
+#import <CORDOVA/CDVPlugin.h>
+#else
+#import "CDVPlugin.h"
+#endif
 
 @interface AppiraterPlugin : PGPlugin {
 	NSString* callbackID;  
