@@ -6,6 +6,6 @@
 var AppiraterPlugin = {
     
      sigEvent: function() {
-          return PhoneGap.exec("AppiraterPlugin.sigEvent");
+          return Cordova.exec("AppiraterPlugin.sigEvent");
      }
 };
